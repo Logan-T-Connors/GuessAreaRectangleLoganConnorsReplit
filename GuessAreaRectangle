@@ -1,0 +1,13 @@
+# Ask the user for the length, width, and their calculated area
+length = float(input("Enter the length: "))
+width = float(input("Enter the width: "))
+user_area = float(input("Enter your calculated area: "))
+
+# Calculate the correct area
+Correct_area = length * width
+
+# Check if the user's area is correct
+if user_area == Correct_area:
+  print("Congratulations! Your area calculation is correct.")
+else:
+  print(f"Sorry, your area calculation is wrong. The correct area is {Correct_area}")
